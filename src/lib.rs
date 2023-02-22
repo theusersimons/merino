@@ -448,7 +448,7 @@ where
                 let time_out = if let Some(time_out) = self.timeout {
                     time_out
                 } else {
-                    Duration::from_millis(8192)
+                    Duration::from_millis(1024)
                 };
 
                 let mut target =
